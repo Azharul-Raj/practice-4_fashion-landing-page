@@ -1,0 +1,132 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img{
+    width: 291px;
+    height: 39px;
+}
+.hero-img{
+    height: 507px;
+    width: 520px;
+}
+.orange-color{
+    font-family: 'Bebas Neue', cursive;;
+    color: #FA804C;
+    font-size: 80px;
+    font-weight: 500;
+}
+.black-color{
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 80px;
+    font-weight: 500;
+}
+.btn-style{
+    padding: 18px 33px;
+    background-color: #3D4FF3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* product-pricing part start */
+
+.product-img{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+.product-img img{
+    height: 300px;
+    width: 350px;
+}
+.price-color{
+    color: #FA804C;
+}
+
+.price-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* product-pricing part start */
+
+/* media quires tablet horizontal view part start */
+
+
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+    .img{
+        width: 200px;
+        height: 50px;
+    }
+
+    .hero-img{
+        height: 407px;
+        width: 407px;
+    }
+    .black-color{
+        font-family: 'Bebas Neue', cursive;;
+        font-size: 40px;
+        font-weight: 500;
+    }    
+    .orange-color{
+        font-family: 'Bebas Neue', cursive;;
+        color: #FA804C;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+}
+/* Tablet part  */
+
+@media only screen and (min-width: 541px) and (max-width:992px) {
+    .img{
+        width: 200px;
+        height: 50px;
+    }
+
+    .hero-img{
+        height: 307px;
+        width: 307px;
+    }
+    .black-color{
+        font-family: 'Bebas Neue', cursive;;
+        font-size: 40px;
+        font-weight: 500;
+    }    
+    .orange-color{
+        font-family: 'Bebas Neue', cursive;;
+        color: #FA804C;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+}
+
+/* media quires tablet part end */
+/* mobile part start */
+
+@media only screen and (max-width: 540px) {
+
+    .img{
+        width: 150px;
+        height: 30px;
+    }
+
+    .hero-img{
+        height: 307px;
+        width: 307px;
+    }
+    .black-color{
+        font-family: 'Bebas Neue', cursive;;
+        font-size: 60px;
+        font-weight: 500;
+    }    
+    .orange-color{
+        font-family: 'Bebas Neue', cursive;;
+        color: #FA804C;
+        font-size:60px;
+        font-weight: 500;
+    }
+}
